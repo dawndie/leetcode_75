@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(canPlaceFlowers([]int{0, 0, 1, 0, 0}, 2))
+	fmt.Print(reverseWords("toi an com"))
 }
