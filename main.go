@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(productExceptSelf([]int{-1,1,0,-3,3}))
+	arr := []int{0, 7, 0, 3, 0}
+	moveZeroes(arr)
+	fmt.Print(arr)
 }
