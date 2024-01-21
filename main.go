@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print(isSubsequence("fk", "adefbfdfc"))
+	fmt.Print(maxArea([]int{1}))
 }
