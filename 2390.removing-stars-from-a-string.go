@@ -7,13 +7,13 @@ package main
  */
 
 // @lc code=start
-type Stack []rune
+type RuneStack []rune
 
-func (s *Stack) Push(n rune) {
+func (s *RuneStack) Push(n rune) {
 	*s = append(*s, n)
 }
 
-func (s *Stack) Pop() int {
+func (s *RuneStack) Pop() int {
 	length := len(*s)
 	if length == 0 {
 		return -1
@@ -24,7 +24,7 @@ func (s *Stack) Pop() int {
 }
 
 func removeStars(s string) string {
-	stack := Stack{}
+	stack := RuneStack{}
 	for _, char := range s {
 		if char == '*' {
 			stack.Pop()
