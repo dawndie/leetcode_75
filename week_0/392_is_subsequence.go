@@ -1,4 +1,4 @@
-package main
+package week_0
 
 // s is sequence of t
 func isSubsequence(s string, t string) bool {

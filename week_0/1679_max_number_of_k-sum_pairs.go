@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func maxOperations(nums []int, k int) int {
 	numsMap := make(map[int]int)

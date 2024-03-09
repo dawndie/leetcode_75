@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func reverseVowels(s string) string {
 	vowels := map[byte]bool{'a': true, 'e': true, 'i': true, 'o': true, 'u': true, 'A': true, 'E': true, 'I': true, 'O': true, 'U': true}

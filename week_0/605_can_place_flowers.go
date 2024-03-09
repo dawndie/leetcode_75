@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	length := len(flowerbed)

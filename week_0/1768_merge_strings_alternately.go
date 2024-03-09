@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func mergeAlternately(word1 string, word2 string) string {
 	length := 0

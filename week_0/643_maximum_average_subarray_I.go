@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func findMaxAverage(nums []int, k int) float64 {
 	sum := float64(0)

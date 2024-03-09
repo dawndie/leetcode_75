@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	max := 0

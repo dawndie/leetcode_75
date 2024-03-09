@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func reverseWords(s string) string {
 	word := ""

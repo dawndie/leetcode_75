@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func maxVowels(s string, k int) int {
 	vowelsMap := map[byte]bool{

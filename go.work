@@ -1,4 +1,0 @@
-go 1.21.0
-
-use ./week_0
-use ./week_1

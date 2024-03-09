@@ -1,4 +1,4 @@
-package main
+package week_0
 
 /*
  * @lc app=leetcode id=226 lang=golang
@@ -23,19 +23,19 @@ type TreeNode struct {
 }
 
 func invertTree(root *TreeNode) *TreeNode {
-    traverse(root)
-    return root
+	traverse(root)
+	return root
 }
 
 func traverse(root *TreeNode) {
-    if root == nil {
-        return
-    }
-    temp := root.Right
-    root.Right = root.Left
-    root.Left = temp
-    invertTree(root.Left)
-    invertTree(root.Right)
+	if root == nil {
+		return
+	}
+	temp := root.Right
+	root.Right = root.Left
+	root.Left = temp
+	invertTree(root.Left)
+	invertTree(root.Right)
 }
 
 // @lc code=end

@@ -1,4 +1,12 @@
-package main
+package week_0
+
+/*
+ * @lc app=leetcode id=1 lang=golang
+ *
+ * [1] Two Sum
+ */
+
+
 
 func maxArea(height []int) int {
 	left, right := 0, len(height)-1

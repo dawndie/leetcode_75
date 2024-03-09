@@ -1,4 +1,4 @@
-package main
+package week_0
 
 func moveZeroes(nums []int) {
 	movedIndex := 0
